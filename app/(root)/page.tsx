@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     
-   <main style={{ backgroundImage: "url('/assets/images/background.jpg')", backgroundSize: 'cover', backgroundRepeat: 'repeat' }}>
+   <main style={{ backgroundImage: "url('/assets/images/background3.jpg')", backgroundSize: 'cover', backgroundRepeat: 'repeat' }}>
     <section className='bg-primary-50 bg.dotted-pattern bg.contain
     py-5 md:py-10'
     >
@@ -22,13 +22,13 @@ export default function Home() {
             </Link>
           </Button>
         </div>
-        <Image
+        {/* <Image
           src="/assets/images/hero.png"
           alt="hero"
           width={1000}
           height={1000}
           className='max-h-[70vh] object-contain object-center2x1:max-h[500vh]'
-          />
+          /> */}
           
       </div>
     </section>

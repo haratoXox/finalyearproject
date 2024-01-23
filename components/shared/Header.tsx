@@ -8,7 +8,7 @@ import Mobilenav from './Mobilenav'
 
 const Header = () => {
   return (
-<header className='w-full border-b'>
+<header className='w-full border-b' style={{background:'#bdc6ad'}}>
   <div className='wrapper flex items-center justify-between'>
     <Link href="/" className='w-36'> 
       <Image src="/assets/images/KRMU Logo.svg" width={128} height={38} />

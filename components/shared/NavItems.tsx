@@ -17,7 +17,7 @@ const NavItems = () => {
             className={`${
               isActive ? 'text-papaya-whimp-300' : 'text-primary-500'
             } flex-center p-medium-16 whitespace-nowrap`}
-        
+            style={{color:'#392139'}}
           >
             <Link href={link.route}>{link.label}</Link>
           </li>
